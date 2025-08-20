@@ -3,8 +3,8 @@ from twilio.rest import Client
 
 # Create your tests here.
 def send_report_via_sms():
-    account_sid = 'AC7414d6a657471be7c189513415179c50'
-    auth_token = '0e9e669a01867d9c7e75c13c5722e84e'
+    account_sid = ''
+    auth_token = ''
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
