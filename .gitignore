@@ -1,0 +1,43 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Environment variables
+.env
+
+# Static files
+staticfiles/
+
+# Virtual environment
+./venv
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials and tokens
+credentials.json
+token.json
+
+# Model files (these are large and should be downloaded during deployment)
+*.pt
+*.pkl
+faiss_index/
+./v1.zip
+./model.h5
+./static
